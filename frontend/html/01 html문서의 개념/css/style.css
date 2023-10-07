@@ -1,0 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #666;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1{
+  font-size:x-large;
+}
