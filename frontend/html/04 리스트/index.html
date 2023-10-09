@@ -7,48 +7,60 @@
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <h1>목록 출력</h1>
-      <ul>
+    <main class="html_main">
+      <h1 class="html_title">목록 출력</h1>
+      <ul class="html_list">
         <li>ul(unordered list): type속성(disc, circle, square)</li>
         <li>ol(ordered list): type속성(1,a,A,i,I)</li>
         <li>
           dl(definition list): 용어정리를의미, dt,dd를 자식으로 가져야 함.
         </li>
       </ul>
-      <hr />
+      <br>
       <section>
-        <h2>ul 순서가 없는 목록(순서가 중요하지 않은 목록)</h2>
-        예시 <br />
-        <h3>올해 개봉작</h3>
-        <ul type="square">
-          <li>플래시</li>
-          <li>가디언즈오브..</li>
-          <li>범죄도시</li>
-        </ul>
+        <h2 class="html_subtitle">ul 순서가 없는 목록(순서가 중요하지 않은 목록)</h2>
+        <hr />
+        <div class="html_list">
+          <h4>예시)</h4>
+          <h3 class="html_subtitle">올해 개봉작</h3>
+          <ul class="html_explain" type="square">
+            <li>플래시</li>
+            <li>가디언즈오브..</li>
+            <li>범죄도시</li>
+          </ul>
+        </div>
       </section>
-      <hr />
+      <br>
       <section>
-        <h2>ol 순서가 있는 목록(순서가 중요한 목록)</h2>
-        예시 <br />
-        <h3>올해 영화 흥행 순위</h3>
-        <ol type="i">
-          <li>가디언즈오브</li>
-          <li>플래시</li>
-          <li>범죄도시</li>
-        </ol>
+        <h2 class="html_subtitle">ol 순서가 있는 목록(순서가 중요한 목록)</h2>
+        <hr />
+        <div class="html_list">
+          <h4>예시)</h4>
+          <h3 class="html_subtitle">올해 영화 흥행 순위</h3>
+          <ol class="html_explain" type="i">
+            <li>가디언즈오브</li>
+            <li>플래시</li>
+            <li>범죄도시</li>
+          </ol>
+        </div>
+        
       </section>
-      <hr />
+      <br>
       <section>
-        <h2>dl (용어의 의미)</h2>
-        예시<br />
+        <h2 class="html_subtitle">dl (용어의 의미)</h2>
+        <hr>
+        <br>
+        <div class="html_list">
+          <h4>예시)</h4>
+          <dl class="html_explain">
+            <dt>html</dt>
+            <dd>html이란...(설명을 적는다.)</dd>
+            <dt>css</dt>
+            <dd>css이란...(설명을 적는다.)</dd>
+          </dl>
+        </div>
         <h3>클라이언트 사이드 랭귀지</h3>
-        <dl>
-          <dt>html</dt>
-          <dd>html이란...(설명을 적는다.)</dd>
-          <dt>css</dt>
-          <dd>css이란...(설명을 적는다.)</dd>
-        </dl>
+        
       </section>
     </main>
   </body>

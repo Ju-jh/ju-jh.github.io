@@ -1,7 +1,4 @@
-* {
-  font-size: 17px;
-  color: #000;
-}
+
 .ex3 :first-of-type {
   color: red;
 }
@@ -14,13 +11,4 @@
 .ex5 a[href='http://']
 {
   font-style: oblique;
-}
-
-h1 {
-  font-size: x-large;
-  text-align: center;
-}
-
-h2 {
-  font-size: large;
 }
