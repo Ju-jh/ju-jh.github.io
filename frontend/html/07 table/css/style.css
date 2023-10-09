@@ -83,8 +83,8 @@ table.ex5 caption {
   background-color: lightgreen;
 }
 
-.html_main {
-  padding-left: 60px;
+main {
+  margin-top: 0;
 }
 
 .html_title {

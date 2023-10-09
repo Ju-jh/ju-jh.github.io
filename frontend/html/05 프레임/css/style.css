@@ -82,8 +82,8 @@ a:hover {
   text-decoration: underline;
 }
 
-.html_main {
-  padding-left: 60px;
+main {
+  margin-top: 0;
 }
 
 .html_title {
