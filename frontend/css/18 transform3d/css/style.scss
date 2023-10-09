@@ -102,9 +102,6 @@
     transform-style: preserve-3d;
     transition: all 1s;
 
-    &.front {
-    }
-
     &.right {
       transform: rotateY(-90deg);
     }
