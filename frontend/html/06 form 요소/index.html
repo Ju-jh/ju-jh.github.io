@@ -13,12 +13,14 @@
     <title>Document</title>
   </head>
   <body>
-    <main>
-      <h1>form요소</h1>
-      <p>웹브라우저를 이용해 사용자가 제아할 수 있는 ui</p>
+    <main class="html_main">
+      <h1 class="html_title">form요소</h1>
+      <p class="html_list">웹브라우저를 이용해 사용자가 제아할 수 있는 ui</p>
+      <br>
       <section>
-        <h2>form요소의 개념</h2>
-        <ul>
+        <h2 class="html_subtitle">form요소의 개념</h2>
+        <hr>
+        <ul class="html_list">
           <li>전송할 데이터의 범위</li>
           <li>action속성 : 데이터를 전송할 주소</li>
           <li>
@@ -30,34 +32,45 @@
           </li>
         </ul>
       </section>
-      <hr />
-      <hr />
+
+      <br>
+      
       <section>
-        <h2>form의 구획요소</h2>
-        <ul>
+        <h2 class="html_subtitle">form의 구획요소</h2>
+        <hr>
+        <ul class="html_list">
           <li>fieldset : 관련된 데이터의 범위를 설정</li>
           <li>legend : fieldset의 제목</li>
         </ul>
       </section>
-      <hr />
+
+      <br />
+
       <section>
-        <h2>form의 접근성</h2>
-        <ul>
+        <h2 class="html_subtitle">form의 접근성</h2>
+        <hr>
+        <ul class="html_list">
           <li>label요소 : for와 id속성으로 연결</li>
           <li>title속성 : label 텍스트를 대체할 수 있는 속성</li>
         </ul>
       </section>
-      <hr />
+
+      <br />
+
       <section>
-        <h2>input 요소와 type</h2>
+        <h2 class="html_subtitle">input 요소와 type</h2>
+        <hr>
         <ul>
           <li>text : default속성</li>
         </ul>
       </section>
-      <hr />
+
+      <br />
+      
       <section>
-        <h2>입력양식의 종류</h2>
-        <ul>
+        <h2 class="html_subtitle">입력양식의 종류</h2>
+        <hr>
+        <ul class="html_list">
           <li>input</li>
           <li>select,option</li>
           <li>textarea</li>
@@ -65,12 +78,16 @@
         </ul>
       </section>
     </main>
-    <hr />
-    <form>
+
+    <br />
+
+    <form class="html_main">
       <fieldset>
-        <legend>회원가입</legend>
+        <legend class="html_subtitle">회원가입</legend>
+        <br>
         <fieldset>
           <legend>필수입력사항</legend>
+          <hr>
           <p>
             <label for="userid">아이디</label>
             <input id="userid" type="text" />
@@ -86,8 +103,11 @@
           </p>
         </fieldset>
 
+        <br>
+
         <fieldset>
           <legend>선택입력사항</legend>
+          <hr>
           <p>
             <label for="email">이메일</label>
             <input id="email" type="email" />
@@ -168,6 +188,9 @@
             <label for="">하고싶은말</label>
             <textarea name="" id="" cols="50" rows="5"></textarea>
           </p>
+          
+          <br>
+
           <p>
             <button type="submit">전송버튼</button>
             <!-- form 안에서 전송버튼을 만드면 default로 submit type으로 만든것. -->
@@ -175,6 +198,8 @@
             <!-- 진짜 Reset버튼임 쓰는일이 많지는 않음.-->
             <button type="button">모양만버튼</button>
           </p>
+
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </fieldset>
       </fieldset>
     </form>
