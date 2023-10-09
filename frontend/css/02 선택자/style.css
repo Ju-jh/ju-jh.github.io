@@ -32,9 +32,6 @@ html {
   scroll-behavior: smooth;
 }
 
-main {
-  margin-top: 10px;
-}
 
 a {
   text-decoration: none;
@@ -45,23 +42,29 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 {
+main {
+  margin-top: 0;
+}
+
+
+.html_title {
   font-size: x-large;
-  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-h2 {
-  font-size: large;
-}
-
-.sub {
-  color: black;
+.html_subtitle {
   font-size: large;
   text-align: left;
+  font-weight: bold;
 }
 
-.explain {
+.html_list {
+  font-size: large;
+  margin-left: 20px;
+}
+
+.html_explain {
   font-size: small;
   margin-left: 10px;
 }
-

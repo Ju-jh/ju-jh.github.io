@@ -149,3 +149,30 @@
   grid-column: 1;
   grid-row: 2;
 }
+
+main {
+  margin-top: 0;
+}
+
+
+.html_title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.html_subtitle {
+  font-size: large;
+  text-align: left;
+  font-weight: bold;
+}
+
+.html_list {
+  font-size: large;
+  margin-left: 20px;
+}
+
+.html_explain {
+  font-size: small;
+  margin-left: 10px;
+}

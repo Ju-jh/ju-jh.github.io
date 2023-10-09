@@ -148,4 +148,30 @@
 .cube-container .cube div.bottom {
   transform: rotateX(270deg) translateZ(150px);
   background: rgba(0, 0, 128, 0.5);
+}
+
+main {
+  margin-top: 0;
+}
+
+.html_title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.html_subtitle {
+  font-size: large;
+  text-align: left;
+  font-weight: bold;
+}
+
+.html_list {
+  font-size: large;
+  margin-left: 20px;
+}
+
+.html_explain {
+  font-size: small;
+  margin-left: 10px;
 }/*# sourceMappingURL=style.css.map */

@@ -1,11 +1,3 @@
-h1 {
-  /* width: 300px; */
-  background: #eee;
-}
-
-span {
-  background: red;
-}
 
 .ex1 span {
   display: inline-block;
@@ -85,4 +77,32 @@ span {
 
 .pr p {
   text-align: center;
+}
+
+
+main {
+  margin-top: 0;
+}
+
+
+.html_title {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.html_subtitle {
+  font-size: large;
+  text-align: left;
+  font-weight: bold;
+}
+
+.html_list {
+  font-size: large;
+  margin-left: 20px;
+}
+
+.html_explain {
+  font-size: small;
+  margin-left: 10px;
 }

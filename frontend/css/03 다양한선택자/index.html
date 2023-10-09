@@ -9,51 +9,66 @@
   </head>
   <body>
     <main>
-      <h1>다양한선택자</h1>
-      <hr />
+      <h1 class="html_title">다양한선택자</h1>
+      <br>
       <section class="ex1">
-        <h1>전체선택자(universial selector)</h1>
-        <p>
+        <h1 class="html_subtitle">전체선택자(universial selector)</h1>
+        <hr>
+        <br>
+        <p class="html_list">
           * : 모든 엘리먼트를 의미함 <br />
           div * : div안쪽의 모든 요소 <br />
           :hover : *:hover
         </p>
       </section>
-      <hr />
+      <br />
       <section class="ex2">
-        <h1>combine selector</h1>
-        <p>
+        <h1 class="html_subtitle">combine selector</h1>
+        <hr>
+        <br>
+        <p class="html_list">
           div.box : box라는 클래스명을 가진 div <br />
           div#box.box : 아이디가 box이면서 클래스는 box인 div
         </p>
       </section>
-      <hr />
+      <br />
       <section class="ex3">
-        <h1>sibling selector</h1>
-        <p>div + : div의 동생 (Adjacent sibling)</p>
-        <p>div ~ * : div의 동생들 (sibling)</p>
-        <p>div ~ P : div의 동생들중에 p요소 (Adjacent sibling)</p>
+        <h1 class="html_subtitle">sibling selector</h1>
+        <hr>
+        <br>
+        <div class="html_list">
+          <p>div + : div의 동생 (Adjacent sibling)</p>
+          <p>div ~ * : div의 동생들 (sibling)</p>
+          <p>div ~ P : div의 동생들중에 p요소 (Adjacent sibling)</p>
+        </div>
+        
       </section>
-      <hr />
+      <br />
       <section class="ex4">
-        <h1>first 가상클래스</h1>
-        <p>
+        <h1 class="html_subtitle">first 가상클래스</h1>
+        <hr>
+        <br>
+        <p class="html_list">
           div:first-child : 모든요소 순서를 기준으로 첫번째인 div <br />
           div:firts-of-type : div순서를 기준으로 첫번째인 div <br />
         </p>
       </section>
-      <hr />
+      <br />
       <section class="ex5">
-        <h1>last 가상클래스</h1>
-        <p>
+        <h1 class="html_subtitle">last 가상클래스</h1>
+        <hr>
+        <br>
+        <p class="html_list">
           div:last-child : 모든요소 순서를 기준으로 마지막번째인 div <br />
           div:last-of-type : div순서를 기준으로 마지막인 div
         </p>
       </section>
-      <hr />
+      <br />
       <section class="ex5">
-        <h1>nth 가상클래스</h1>
-        <p>
+        <h1 class="html_subtitle">nth 가상클래스</h1>
+        <hr>
+        <br>
+        <p class="html_list">
           div:nth-child(3) : 3번째 div <br />
           div:nth-of-type(1) : div중의 첫번째 div <br />
           div:nth-child(even) : 모든요소 순서를 기준으로 짝수번째 <br />
@@ -63,10 +78,12 @@
           div:nth-child(3n+2) : 모든요소 순서를 기준으로 3n+2째 <br />
         </p>
       </section>
-      <hr />
+      <br />
       <section>
-        <h2>not() 가상클래스</h2>
-        <ul>
+        <h2 class="html_subtitle">not() 가상클래스</h2>
+        <hr>
+        <br>
+        <ul class="html_list">
           <li>특정요소는 제외하는 선택자</li>
           <li>
             예시) .ex4 b:nth-child(even){color:red}
@@ -84,10 +101,12 @@
           <li>주의: not 선택자 안에서 not을 사용할 수 없다</li>
         </ul>
       </section>
-      <hr />
+      <br />
       <section>
-        <h3>속성선택자</h3>
-        <article>
+        <h3 class="html_subtitle">속성선택자</h3>
+        <hr>
+        <br>
+        <article class="html_list">
           <p>.ex5 a[href] : href속성을 가지고 있는 a요소</p>
           <p>
             .ex5 a[href='http://'] : href속성의 값이 http://와 일치하는 a요소

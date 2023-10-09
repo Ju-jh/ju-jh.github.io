@@ -8,39 +8,53 @@
   </head>
   <body>
     <main>
-      <h1><b>display</b> <b>level</b></h1>
+      <h1 class="html_title"><b>display</b> <b>level</b></h1>
+      <br>
       <section>
-        <h2>display의 종류</h2>
-        <article>
-          <h3>block 레벨</h3>
-          <ul>
-            <li>한줄을 통째로 차지하는 요소</li>
-            <li>기본적으로 부모의 넓이와 동일한 넓이를 갖게 된다</li>
-            <li>크기를 가질 수 있다</li>
-          </ul>
-        </article>
-        <article>
-          <h3>inline 레벨</h3>
-          <ul>
-            <li>줄내림이 되지 않는 요소</li>
-            <li>크기속성을 가질 수 없음</li>
-            <li>a, small, em, i, ...</li>
-          </ul>
-          <span>span</span>
-        </article>
-        <article>
-          <h3>inline-block 레벨</h3>
-          <ul>
-            <li>줄내림이 되지 않으면서, 크기를 가질 수 있음</li>
-            <li>
-              img, svg, canvas, video, iframe, button, input, select, textarea
-            </li>
-          </ul>
-        </article>
+        <h2 class="html_subtitle">display의 종류</h2>
+        <hr>
+        <br>
+        <div style="margin-left: 10px;">
+          <article>
+            <h3>block 레벨</h3>
+            <br>
+            <ul class="html_list">
+              <li>한줄을 통째로 차지하는 요소</li>
+              <li>기본적으로 부모의 넓이와 동일한 넓이를 갖게 된다</li>
+              <li>크기를 가질 수 있다</li>
+            </ul>
+          </article>
+          <br>
+          <article>
+            <h3>inline 레벨</h3>
+            <br>
+            <ul class="html_list">
+              <li>줄내림이 되지 않는 요소</li>
+              <li>크기속성을 가질 수 없음</li>
+              <li>a, small, em, i, ...</li>
+              <li>
+                <span>span</span>
+              </li>
+            </ul>
+          </article>
+          <br>
+          <article>
+            <h3>inline-block 레벨</h3>
+            <br>
+            <ul class="html_list">
+              <li>줄내림이 되지 않으면서, 크기를 가질 수 있음</li>
+              <li>
+                img, svg, canvas, video, iframe, button, input, select, textarea
+              </li>
+            </ul>
+          </article>
+        </div>
       </section>
-      <hr />
+      <br />
       <section>
-        <h2>inline 레벨간의 수평 줄맞춤</h2>
+        <h2 class="html_subtitle">inline 레벨간의 수평 줄맞춤</h2>
+        <hr>
+        <br>
         <!-- inline블럭 한개가 나오면 글자로 보아라! -->
         <!-- 한줄일때만 line-height 쓰는거고 -->
         <!-- 두줄 이상이면 flex 쓰는거다. -->
@@ -49,7 +63,8 @@
           <span>span</span>
           <span>span</span>
         </div>
-        <ul>
+        <br>
+        <ul class="html_list">
           <li>text-align은 요소 안쪽 글자및 인라인 계열 요소를 정렬</li>
           <li>
             line-height은 행간을 제어하는 속성이지만, 요소의 높이와 동일하게
@@ -59,13 +74,19 @@
           <li>vertical-align속성은 글자 및 인라인 계열 요소의 수평줄맞춤</li>
         </ul>
       </section>
+
+      <br>
+
       <section>
-        <h2>block레벨의 수평정렬</h2>
-        <ul>
+        <h2 class="html_subtitle">block레벨의 수평정렬</h2>
+        <hr>
+        <br>
+        <ul class="html_list">
           <li>
             margin의 수평값에 auto값을 사용 (auto값은 block레벨에만 적용됨.)
           </li>
         </ul>
+        <br>
         <div class="ex2">
           <span>span</span>
         </div>
