@@ -2,12 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
-a {
+a.anchor {
   text-decoration: none;
-  color: #666;
+  color: rgb(52, 128, 251);
 }
 
-a:hover {
+a.anchor:hover {
   text-decoration: underline;
 }
 
@@ -36,4 +36,35 @@ main {
 .html_explain {
   font-size: small;
   margin-left: 10px;
+}
+
+.html_list li {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.html_list li:last-child {
+  margin-bottom: 10px;
+}
+
+xmp{
+  padding-left: 10px;
+  padding-Right: 10px;
+  font-weight: bold;
+  width: min-content;
+  color: black;
+  background: rgb(13, 209, 253);
+  border: 4px;
+  border-width: 10px;
+  border-color: black;
+  border-radius: 5px;
+}
+
+pre{
+  font-weight: bold;
+  width: min-content;
+  background: white;
+  color: black;
+  border: 4px;
+  border-color: blue;
 }

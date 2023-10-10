@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <script defer src="./js/script.js"></script>
-    <title>Document</title>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- 결과를 표시할 div 요소 -->
+  <div id="output"></div>
+
+  <pre>
+    {
+    let arr = ['가', '나', '다'];
+    let arrCopy = arr;
+    arr.push('라');
+    
+    let arr2 = ['가', '나', '다', '라', '마'];
+    let arr2Copy = [...arr2]; // 전개연산자, spread operator
+    arr2.push('바');
+    
+    let obj = { 이름: '홍길동', 나이: '24' };
+    let objCopy = { ...obj };
+    
+    let outputDiv = document.getElementById('output');
+    
+    // 결과를 div 요소의 텍스트 내용으로 설정
+    outputDiv.textContent = `
+    arrCopy: ${arrCopy}
+    arr2: ${arr2}
+    arr2Copy: ${arr2Copy}
+    objCopy: ${JSON.stringify(objCopy)}
+    `;
+    }
+  </pre>
+
+  <script>
+    // 결과를 생성하는 스크립트
+    {
+      let arr = ['가', '나', '다'];
+      let arrCopy = arr;
+      arr.push('라');
+
+      let arr2 = ['가', '나', '다', '라', '마'];
+      let arr2Copy = [...arr2]; // 전개연산자, spread operator
+      arr2.push('바');
+
+      let obj = { 이름: '홍길동', 나이: '24' };
+      let objCopy = { ...obj };
+
+      let outputDiv = document.getElementById('output');
+
+      // 결과를 div 요소의 텍스트 내용으로 설정
+      outputDiv.textContent = `
+      arrCopy: ${arrCopy}
+      arr2: ${arr2}
+      arr2Copy: ${arr2Copy}
+      objCopy: ${JSON.stringify(objCopy)}
+    `;
+    }
+  </script>
+
+</body>
+
 </html>

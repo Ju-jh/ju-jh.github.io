@@ -1,4 +1,4 @@
-const arr = ['가', '나', '다', '라'];
+var arr = ['가', '나', '다', '라'];
 
 //ex0번 클릭
 document.querySelector('.ex0 button').addEventListener('click', () => {

@@ -1,0 +1,14 @@
+.flexdiv{
+  width: 300px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+
+pre{
+  font-size: 12px;
+}
+
+xmp{
+  margin: 0;
+}

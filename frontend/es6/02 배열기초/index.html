@@ -8,6 +8,37 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="flexdiv">
+      <xmp>
+        //html
+
+        <div class="ex0">
+          <p>0. 배열이 순환 출력됩니다.</p>
+          <p>value를 출력해봅니다.</p>
+          <button>버튼</button>
+          <p class="result"></p>
+        </div>
+        <!-- ex0 -->
+      </xmp>
+      <pre>
+
+        //javascript
+
+        var arr = ['가', '나', '다', '라'];
+        
+        //ex0번 클릭
+        document.querySelector('.ex0 button').addEventListener('click', () => {
+        // document.querySelector('.ex1 .result').append(arr[0]);
+        // document.querySelector('.ex1 .result').append(arr[1]);
+        // document.querySelector('.ex1 .result').append(arr[2]);
+        // document.querySelector('.ex1 .result').append(arr[3]);
+        
+        arr.forEach((value, index) => {
+        document.querySelector('.ex0 .result').append(value);
+        });
+        });
+      </pre>
+    </div>
     <div class="ex0">
       <p>0. 배열이 순환 출력됩니다.</p>
       <p>value를 출력해봅니다.</p>
@@ -16,6 +47,32 @@
     </div>
     <!-- ex0 -->
     <hr />
+    <br>
+    <div class="flexdiv">
+      <xmp>
+        //html
+
+        <div class="ex1">
+          <p>1. 배열이 순환 출력됩니다.</p>
+          <p>arr[index]를 출력해봅니다.</p>
+          <button>버튼</button>
+          <p class="result"></p>
+        </div>
+        <!-- ex1 -->
+      </xmp>
+      <pre>
+        
+        //javascript
+
+        //ex1번 클릭
+        document.querySelector('.ex1 button').addEventListener('click', () => {
+        arr.forEach((value, index) => {
+        //value 는 arr 자체, index 는 순번
+        document.querySelector('.ex1 .result').append(arr[index]);
+        });
+        });
+      </pre>
+    </div>
     <div class="ex1">
       <p>1. 배열이 순환 출력됩니다.</p>
       <p>arr[index]를 출력해봅니다.</p>

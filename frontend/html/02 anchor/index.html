@@ -10,59 +10,82 @@
   <body>
     <main class="html_main">
       <h1 class="html_title">anchor</h1>
-      <p class="html_subtitle">hyper link를 구현하는 목적</p>
+      <p class="html_subtitle"># hyper link를 구현하는 목적</p>
       <hr />
+      <br>
       <p class="html_list">anchor = 하이퍼링크를 구현하는 목적!</p>
       <br>
+      <br>
       <section>
-        <h2 class="html_subtitle">anchor특징</h2>
+        <h2 class="html_subtitle"># anchor특징</h2>
         <hr>
+        <br>
         <ul class="html_list">
           <li>
             사용법 :
             <!-- a 를 누르면 자동으로 추천해준다. -->
-            <a href="http://www.naver.com" target="_blank">naver</a>
+            <a class="anchor" href="http://www.naver.com" target="_blank">naver</a>
+            <xmp><a href="http://www.naver.com" target="_blank">naver</a></xmp>
           </li>
           <li>
             href 종류
-            <ul>
-              <li>tel : <a href="tel:01029067437">010-2906-7437</a></li>
+            <ul class="html_list">
               <li>
-                mailto : <a href="mailto:hansyooni@naver.com">메일보내기</a>
+                tel : <a class="anchor" href="tel:01029067437">010-2906-7437</a>
               </li>
-              <li><a href="/html/02 anchor/memo.txt">파일다운로드</a></li>
+              <xmp>tel : <a class="anchor" href="tel:01029067437">010-2906-7437</a></xmp>
+              <li>
+                mailto : <a class="anchor" href="mailto:hansyooni@naver.com">메일보내기</a>
+              </li>
+              <xmp>mailto : <a class="anchor" href="mailto:hansyooni@naver.com">메일보내기</a></xmp>
+              <li>
+                <a class="anchor" href="/html/02 anchor/memo.txt">파일다운로드</a>
+              </li>
+              <xmp><a class="anchor" href="/html/02 anchor/memo.txt">파일다운로드</a></xmp>
             </ul>
           </li>
-          <li>
-            css제어 :
-            <a href="http://google.com " target="_blank">구글</a>
-            <a href="http://facebook.com" target="_blank">페북</a>
+          <br>
+          <li class="html_list" style="display: flex;">
+            <p style="margin-right: 20px;">css제어 :</p>
+            <div>
+              <a class="anchor" href="http://google.com " target="_blank">구글</a>
+            <xmp><a href="http://google.com " target="_blank">구글</a></xmp>
+            <a class="anchor" href="http://facebook.com" target="_blank">페북</a>
+            <xmp><a href="http://facebook.com" target="_blank">페북</a></xmp>
+            </div>
+            
           </li>
         </ul>
       </section>
       <br>
+      <br>
       <section>
-        <h2 class="html_subtitle">경로</h2>
+        <h2 class="html_subtitle"># 경로</h2>
         <hr />
+        <br>
         <ul class="html_list">
           <li>절대경로 : /</li>
           <li>상대경로 : './' '../'</li>
         </ul>
       </section>
       <br>
+      <br>
       <section>
-        <h2 class="html_subtitle">internal link (내부링크)</h2>
+        <h2 class="html_subtitle"># internal link (내부링크)</h2>
         <hr />
+        <br>
         <ul class="html_list">
-          <li><a href="#">전체페이지</a></li>
-          <li>href 속성값의 #는 현재페이지</li>
+          <li><a class="anchor" href="#">전체페이지</a></li>
+          <li class="html_explain">href 속성값의 #은 현재페이지</li>
+          <xmp><a href="#">전체페이지</a></xmp>
         </ul>
       </section>
       <br>
+      <br>
       <section>
-        <h2 class="html_subtitle">목차</h2>
+        <h2 class="html_subtitle"># 목차</h2>
         <hr />
-
+        <br>
         <nav id="nav" class="html_list">
           <a href="#chap1">챕터1</a>
           <a href="#chap2">챕터2</a>
